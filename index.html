@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<style>
+.portfolio-carousel-prev,
+.portfolio-carousel-next,
+.swiper-button-lock.portfolio-carousel-prev,
+.swiper-button-lock.portfolio-carousel-next {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+body {
+  background-color: #FFFFF1 !important;
+}
+
+footer,
+header,
+main:not(.bg-secondary),
+#footer-bottom {
+  background-color: #FFFFF1 !important;
+}
+
+#menu-toggle,
+.menu-btn {
+  display: none !important;
+}
+
+	
+</style>
+
+
+<head>
+
+	<title>نسرين – ملف أعمال | تصميم جرافيكي</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="author" content="TemplatesJungle">
+	<meta name="keywords" content="Portfolio, Bootstrap5, HTML/CSS, Website Template">
+	<meta name="description" content="Aurora is a Portfolio Bootstrap5 HTML/CSS Website Template">
+
+	<!-- منع الترجمة التلقائية -->
+	<meta name="google" content="notranslate" />
+
+	<link rel="stylesheet" type="text/css" href="assets/icomoon/icomoon.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/chocolat/css/chocolat.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<title>معرض أعمالي – نسرين هاني</title>
+
+
+<!-- هنا فقرة السيرة الذاتية -->
+
+
+<!-- هنا قسم معرض الأعمال -->
+
+</head>
+
+<body>
+
+	<div id="overlayer">
+		<span class="loader">
+			<span class="loader-inner"></span>
+		</span>
+	</div>
+
+	<div class="nav nav-overlay">
+		<div class="nav__content">
+			<ul class="nav__list">
+				<li class="nav__list-item mb-2 active-nav"><a href="#">Home</a></li>
+				<li class="nav__list-item mb-2"><a href="styles.html">Styles <span
+							class="badge bg-dark fs-6">PRO</span></a>
+				</li>
+				<li class="nav__list-item mb-2"><a href="blog.html">Blog <span class="badge bg-dark fs-6">PRO</span></a>
+				</li>
+				<li class="nav__list-item mb-2"><a href="portfolio-masonry.html">Portfolio Masonry <span
+							class="badge bg-dark fs-6">PRO</span></a></li>
+				<li class="nav__list-item mb-2"><a href="single-post.html">Single Post <span
+							class="badge bg-dark fs-6">PRO</span></a></li>
+				<li class="nav__list-item mb-2"><a href="single-portfolio.html">Single Portfolio <span
+							class="badge bg-dark fs-6">PRO</span></a></li>
+				<li class="nav__list-item mb-2"><a href="contact.html">Contact us <span
+							class="badge bg-dark fs-6">PRO</span></a></li>
+				<li class="nav__list-item mb-2"><a href="team.html">Our Team <span
+							class="badge bg-dark fs-6">PRO</span></a>
+				</li>
+				<li class="nav__list-item mb-2"><a href="https://templatesjungle.gumroad.com/l/aurora"
+						class="text-decoration-underline fw-bold" target="_blank">Get PRO Version</a></li>
+						
+						
+			</ul>
+		</div>
+	</div>
+
+<header id="header">
+  <div class="header-wrap" data-aos="fade" style="display: flex; align-items: center; gap: 30px; padding: 10px 20px;">
+    
+    <div class="main-logo">
+      <a href="index.html">
+       <img src="images/bok-01.png" title="Portfo HTML Template" style="height: 90px;">
+
+      </a>
+    </div><!--main-logo-->
+
+    <!-- روابط العرض جنب الشعار -->
+    <nav style="display: flex; gap: 30px; font-weight: bold; font-size: 1.1rem;">
+     <a href="#cv-section" style="color: #e81069; text-decoration: underline;">عرض السيرة الذاتية</a>
+      <a href="#portfolio-section" style="color: #e81069; text-decoration: underline;">معرض الأعمال</a>
+
+    </nav>
+
+    <!-- يمكن إخفاء أو نقل هذا إذا لم يكن مطلوب -->
+    <nav id="navbar">
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-btn" for="menu-toggle">
+        <span></span>
+      </label>
+    </nav>
+
+  </div><!--header-wrap-->
+</header>
+
+
+	<section id="billboard" class="jarallax bg-secondary">
+  <div class="container-lg">
+    <div class="row align-items-end">
+      <div class="col-lg-6" data-aos="zoom-in-up">
+        <div class="banner-content">
+          <div class="banner-header">
+<section id="cv-section">
+  <p class="fs-5" dir="rtl" style="color: #e81069;">
+    أنا المصممة نسرين أبو هاني، تخصصي تكنولوجيا الوسائط المتعددة والجرافيك.  
+    أُتقن تصميم الشعارات، والهويات البصرية، وتطبيقات الهواتف، والمواقع الإلكترونية، ومحتوى وسائل التواصل الاجتماعي.
+  </p>
+</section>
+
+
+
+<div style="direction: rtl;">
+  <a href="mailto:nisreenhani0@gmail.com" class="btn btn-primary btn-large" style="background-color: #e81069; border-color: #e81069;">
+    تواصل معنا
+  </a>
+</div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="zoom-in-up">
+        <img src="images/dc.png" alt="Banner" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="portfolio-section" class="padding-large" dir="rtl" style="margin-top: 50px;">
+  <div class="container-lg">
+    <div class="row">
+      <!-- UI Design -->
+      <div class="col-md-4 mb-5 mb-lg-0">
+        <div class="info-box text-center" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/h.png" alt="تصميم واجهات المستخدم" class="img-fluid mb-3">
+          <div class="icon">
+            <iconify-icon icon="la:edit" style="color: #e81069; font-size: 28px;"></iconify-icon>
+          </div>
+          <h3 style="color: #e81069; font-size: 1.2rem;">تصميم واجهات المستخدم UI</h3>
+          <p style="color: #e81069; font-size: 0.95rem;">أصمم واجهات سهلة الاستخدام وجذابة بصريًا، تركز على تجربة المستخدم وتلبي احتياجات المشروع بدقة.</p>
+        </div>
+      </div>
+
+      <!-- Brand Identity -->
+      <div class="col-md-4 mb-5 mb-lg-0">
+        <div class="info-box text-center" data-aos="zoom-in-up" data-aos-delay="600">
+          <img src="images/po.png" alt="الهوية البصرية والعلامة التجارية" class="img-fluid mb-3">
+          <div class="icon">
+            <iconify-icon icon="la:gitter" style="color: #e81069; font-size: 28px;"></iconify-icon>
+          </div>
+          <h3 style="color: #e81069; font-size: 1.2rem;">الهوية البصرية والعلامة التجارية</h3>
+          <p style="color: #e81069; font-size: 0.95rem;">أُبدع هويات بصرية فريدة تعبر عن شخصية العلامة التجارية وتضمن تميزها في السوق.</p>
+        </div>
+      </div>
+
+      <!-- Logo Design -->
+      <div class="col-md-4 mb-5 mb-lg-0">
+        <div class="info-box text-center" data-aos="zoom-in-up" data-aos-delay="900">
+          <img src="images/k.png" alt="تصميم الشعارات" class="img-fluid mb-3">
+          <div class="icon">
+            <iconify-icon icon="la:jira" style="color: #e81069; font-size: 28px;"></iconify-icon>
+          </div>
+          <h3 style="color: #e81069; font-size: 1.2rem;">تصميم الشعارات</h3>
+          <p style="color: #e81069; font-size: 0.95rem;">أبتكر شعارات احترافية تمثل جوهر العلامة وتعزز من ظهورها البصري بطرق مبتكرة وعصرية.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="color-stories" class="padding-large bg-grey" dir="rtl">
+  <div class="container-lg" data-aos="fade-up" data-aos-delay="300">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header align-center mb-5">
+         
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- بطاقة 1: بوستر موسيقي مع فيديو 1 -->
+      <div class="col-md-4">
+	  
+        <div class="card p-3 text-center position-relative overflow-hidden" style="height: 300px;">
+          <video autoplay muted loop playsinline
+                 style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+            <source src="video/xc.mp4" type="video/mp4">
+          </video>
+          <div style="position: relative; z-index: 2;"></div>
+        </div>
+      </div>
+
+      <!-- بطاقة 2: غلاف كتاب مع فيديو 2 -->
+      <div class="col-md-4">
+        <div class="card p-3 text-center position-relative overflow-hidden" style="height: 300px;">
+          <video autoplay muted loop playsinline
+                 style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+            <source src="video/Comp 1_1.mp4" type="video/mp4">
+          </video>
+          <div style="position: relative; z-index: 2;"></div>
+        </div>
+      </div>
+
+      <!-- بطاقة 3: تصميم هوية مقهى مع فيديو 3 -->
+      <div class="col-md-4">
+        <div class="card p-3 text-center position-relative overflow-hidden" style="height: 300px;">
+          <video autoplay muted loop playsinline
+                 style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+            <source src="video/v2.mp4" type="video/mp4">
+          </video>
+          <div style="position: relative; z-index: 2;"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<section id="design-basics" class="overflow-hidden padding-large" dir="rtl" style="background-color: #fffff1; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+
+  <div class="container-lg" data-aos="zoom-in-up" data-aos-delay="300">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="section-header d-flex flex-wrap justify-content-center justify-content-md-start align-items-center mb-2 mb-md-5">
+          
+		  <h2 class="display-5 m-0" style="color: #e81069; font-size: 1.8rem;">تايبوغرافي</h2>
+
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="swiper-buttons text-end">
+          <div class="swiper-button portfolio-carousel-prev">←</div>
+          <div class="swiper-button portfolio-carousel-next">→</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="portfolio-carousel swiper">
+          <div class="swiper-wrapper">
+
+            <!-- عنصر 1: الهوية البصرية -->
+            <div class="swiper-slide">
+              <figure class="portfolio-item text-center">
+                <img src="images/o-01.jpg" class="portfolio-image" alt="تصميم هوية">
+                <figcaption class="portfolio-title my-3">
+               
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- عنصر 2: البروشورات -->
+            <div class="swiper-slide">
+              <figure class="portfolio-item text-center">
+                <img src="images/final glitter 12ai (1)-01.jpg" class="portfolio-image" alt="بروشورات">
+                <figcaption class="portfolio-title my-3">
+                 
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- عنصر 3: البوسترات -->
+            <div class="swiper-slide">
+              <figure class="portfolio-item text-center">
+                <img src="images/1poster-01.jpg" class="portfolio-image" alt="بوستر إعلاني">
+                <figcaption class="portfolio-title my-3">
+                
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- عنصر 4: السوشيال ميديا -->
+         
+
+            <!-- عنصر 5: الموشن جرافيك -->
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	<section id="clients" class="bg-grey padding-large">
+		<div class="container-lg" data-aos="zoom-in-up" data-aos-delay="300">
+			<div class="row">
+				<div class="section-header align-center mb-5">
+					
+				
+				<h2 class="display-5 m-0" style="color: #e81069; font-size: 1.8rem;">بطاقات</h2>
+
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 overflow-hidden">
+					<div id="clients-carousel" class="swiper clients-carousel">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide text-center"><img src="images/card-01.jpg" alt="brand logo"
+									class="img-fluid">
+							</div>
+							<div class="swiper-slide text-center"><img src="images/card2-01.jpg" alt="brand logo"
+									class="img-fluid">
+							</div>
+							<div class="swiper-slide text-center"><img src="images/c11-01.jpg" alt="brand logo"
+									class="img-fluid">
+							</div>
+							<div class="swiper-slide text-center"><img src="images/c22-01.jpg" alt="brand logo"
+									class="img-fluid">
+							</div>
+							<div class="swiper-slide text-center"><img src="images/flex1-01-01.jpg" alt="brand logo"
+									class="img-fluid">
+							</div>
+							<div class="swiper-slide text-center"><img src="images/flex-01-01.jpg" alt="brand logo"
+									class="img-fluid">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section id="post-grid" class="padding-large" dir="rtl" style="background-color: #FFFFF1; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+  <div class="container-lg">
+    <div class="row">
+      <div class="section-header align-center mb-5">
+        
+		<h2 class="display-5 m-0" style="color: #e81069; font-size: 1.8rem;">مشروع تجريبي – حملة إعلانية لمنتج من Nike</h2>
+
+      </div>
+    </div>
+
+    <div class="card border-0 p-4" style="background-color: #FFFFF1; color: #e81069; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+      <div class="row g-4 justify-content-center align-items-center text-center">
+
+        <!-- بوستر -->
+        <div class="col-md-4">
+          <img src="images/poster.jpg" alt="بوستر" style="max-width: 100%; max-height: 250px; object-fit: contain;">
+          <p class="mt-2"><strong>بوستر:</strong> إعلان مطبوع احترافي</p>
+        </div>
+
+        <!-- صورة الغلاف في المنتصف -->
+        <div class="col-md-4 order-md-2 order-1">
+          <img src="images/cover photo f (1).jpg" alt="غلاف الحملة" style="max-width: 100%; max-height: 250px; object-fit: contain;">
+          <p class="mt-2"><strong>غلاف:</strong> غلاف الحملة الإعلانية</p>
+        </div>
+
+        <!-- منشور -->
+        <div class="col-md-4 order-md-3 order-3">
+          <img src="images/post facbook (1).jpg" alt="منشور سوشال ميديا" style="max-width: 100%; max-height: 250px; object-fit: contain;">
+          <p class="mt-2"><strong>منشور:</strong> منشور ترويجي على فيسبوك</p>
+        </div>
+      </div>
+
+      <!-- تاريخ -->
+      <div class="text-center mt-4">
+        <span style="color: #e81069;" class="small">الحملة الإعلانية - 1 ديسمبر 2024</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer id="footer" class="padding-large" dir="rtl" style="background-color: #ffffff; color: #e81069; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+  <div class="container-lg">
+    <div class="row">
+      <div class="footer-menu col-md-4">
+        <div class="footer-intro">
+          <a href="#" class="logo"><img src="images/bok-01.png" alt="شعار الموقع"></a>
+        </div>
+        <div class="footer-address mt-4">
+          <p>لا تتردد في التواصل معي إذا كنت ترغب بالتعاون أو لمجرد الحديث.</p>
+          <div class="mail-address">
+           <a href="mailto:na202110509@khawarizmi.edu.jo" class="fs-5 text-decoration-underline" style="color: #e81069;">
+  na202110509@khawarizmi.edu.jo
+</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-menu col-6 col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" style="color: #e81069;">الرئيسية</a></li>
+          <li><a href="#" style="color: #e81069;">من أنا</a></li>
+          <li><a href="#" style="color: #e81069;">أعمالي</a></li>
+          <li><a href="#" style="color: #e81069;">الخدمات</a></li>
+          <li><a href="#" style="color: #e81069;">تواصل معي</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu col-6 col-md-2">
+        <ul class="list-unstyled">
+          <li><a href="#" style="color: #e81069;">سياسة الخصوصية</a></li>
+          <li><a href="#" style="color: #e81069;">فريق العمل</a></li>
+          <li><a href="#" style="color: #e81069;">الأسعار</a></li>
+          <li><a href="#" style="color: #e81069;">الشروط والأحكام</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu col-md-4">
+        <div class="subscribe">
+          <p>اشترك في النشرة البريدية لتصلك آخر التحديثات حول التصميم والعلامات التجارية والمزيد.</p>
+          <input class="rounded-2 mb-2 mt-2 p-1 form-control" type="text" name="email" placeholder="اكتب بريدك الإلكتروني">
+          <button class="btn mt-2" style="background-color: #e81069; color: white;">اشترك</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<p class="text-center" style="color: #e81069;">
+  جميع الحقوق محفوظة 
+<a href="mailto:na202110509@khawarizmi.edu.jo" style="color: #e81069; text-decoration: underline;">
+  na202110509@khawarizmi.edu.jo
+</a>
+
+</p>
+
+
+
+<div id="footer-bottom" class="py-3 border-top" dir="rtl" style="background-color: #fffff1; color: #000000;">
+  <div class="container-lg">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">
+        <div class="social-links">
+          <ul class="d-flex justify-content-center m-0 list-unstyled gap-4" style="font-size: 28px;">
+            <!-- Instagram -->
+            <li>
+              <a href="https://instagram.com/wowzii1" target="_blank" title="Instagram" style="color: #e81069;">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <!-- Email -->
+            <li>
+              <a href="mailto:nisreenhani0@gmail.com" title="Email" style="color: #e81069;">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+            <!-- YouTube -->
+            <li>
+              <a href="https://youtube.com/@nisreenhani-z3t?si=dzxbm-HR7kOeXdmD" target="_blank" title="YouTube" style="color: #e81069;">
+                <i class="fab fa-youtube"></i>
+				
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+	<script src="assets/vendor/chocolat/js/chocolat.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
